@@ -26,10 +26,6 @@ public:
 
     Tower &operator=(const Tower &other) = delete;
 
-    int getSize() const {
-        return (int) m_disks.size();
-    }
-
     void push(const Disk &disk);
 
     const Disk &pop();

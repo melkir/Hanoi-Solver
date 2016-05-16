@@ -13,8 +13,6 @@ private:
 public:
     Disk(int size = 0) : m_size(size) { }
 
-    void setSize(int size) { m_size = size; }
-
     int getSize() const { return m_size; }
 
     friend std::ostream &operator<<(std::ostream &os, const Disk &disk) {
