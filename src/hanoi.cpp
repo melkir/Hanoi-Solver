@@ -24,10 +24,3 @@ void Hanoi::move(Tower &from, Tower &to) {
     const Disk &disk = from.pop();
     to.push(disk);
 }
-
-
-
-
-
-
-
