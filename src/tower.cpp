@@ -23,7 +23,3 @@ const Disk &Tower::pop() {
     m_disks.pop_back();
     return *top;
 }
-
-
-
-
